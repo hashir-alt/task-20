@@ -1,0 +1,352 @@
+/* Apply Product Sans font to the entire page */
+body, .home-page {
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+/* If any specific element needs a different font, adjust individually, otherwise this will apply to all sections */
+
+
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 1st Section: Top Image */
+.top-image-section {
+    width: 100%;
+    height: auto; /* Let the image height adjust automatically */
+}
+
+.top-image {
+    width: 118%;
+    margin-left: -17%;
+    height: 593px;
+    display: block;/* Remove extra space below the image */
+}
+
+/* 2nd Section: Categories */
+.categories-section {
+    padding: 102px;
+    margin-left: -28%;
+}
+
+.section-heading {
+    font-size: 2em;
+    margin-top: 8%;
+    margin-left: 12%;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 14px;
+    margin-left: 11%;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    background-color: transparent;
+    border: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* 3rd Section: Special Moment */
+.special-moment-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 256px;
+    margin-top: 13%;
+    margin-left: -26%;
+    color: white;
+    width: 127%;
+    background-color: #533C56;
+}
+
+.special-moment-image {
+    width: 40%;
+    margin-top: -6%;
+    height: 135%;
+    margin-right: 20px;
+    margin-left: 8%;
+    margin-top: -35px;
+}
+
+.special-moment-text {
+    width: 50%;
+}
+
+.special-moment-text h2 {
+    margin: 0 0 10px;
+    font-size: 245%;
+    font-style: bold;
+}
+
+.special-moment-text p {
+    margin: 0;
+}
+
+/* 4th Section: Follow Us */
+.follow-us-section {
+    padding: 20px;
+    margin-left: -26%;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 5%;
+    gap: 10px;
+    margin-left: 9%;
+}
+
+.social-icons a img {
+    width: 185px;
+    height: 80px;
+    margin: 15px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    gap: 20%;
+}
+#p-11{
+    display: flex;
+    margin-left: 32%;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    font-size: 112%;
+}
+
+/* 5th Section: Trending Packages */
+.trending-packages-section {
+    padding: 20px;
+    margin-left: -25%;
+}
+
+.package-cards {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    margin-left: 12%;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    width: calc(33.333% - 20px); /* Adjust width with gap */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.package-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* 6th Section: Blogs */
+.blogs-section {
+    padding: 20px;
+    margin-left: -25%;
+}
+
+.blog-cards {
+    display: flex;
+    gap: 14px;
+    margin-left: 11%;
+    width: 78%;
+    flex-wrap: wrap;
+    
+}
+
+.blog-card {
+    width: calc(33.333% - 20px); /* Adjust width with gap */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.p{
+    margin-top: -97px;
+    justify-content: center;
+    margin-top: -45%;
+    font-size: 100px;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.bl-1{
+    display: flex;
+    height: 51px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 27%;
+    background-color: white;
+    margin-top: 10%;
+}
+.footer {
+    background-color: #533C56;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    width: 84rem;
+    margin-left: -268px;
+    height: 402px;
+    position: relative;
+}
+
+.footer .top-section {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: -126px;
+    width: 54%;}
+
+.footer .top-section img {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 10px;
+    margin-top:62%;
+}
+
+.footer .subscribe-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .subscribe-container input[type="email"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: transparent;
+    width: 95%;
+    height: 41%;
+    margin-top: 29%;
+    margin-right: 10px;
+}
+
+.footer .subscribe-container button {
+    padding:14px 17px;
+    margin-left: -15%;
+    margin-top: 29%;
+    height: 53px;
+    margin-left: -36%;
+    border-radius: 4px;
+    border: none;
+    background-color: lightblue;
+    color: #533C56;
+    cursor: pointer;
+}
+
+.footer .navigation-links {
+    display: flex;
+    opacity: 81%;
+    gap: 40%;
+    margin-top: 29%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer .navigation-links a {
+    color: white;
+    margin: 0 15px;
+    margin-top: -32%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer .horizontal-line {
+    width: 100%;
+    margin-top: 15%;
+    border-top: 1px solid #E6E6E6;
+    margin-bottom: 10px;
+}
+
+.footer .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .bottom-section .social-media-icons {
+    margin-bottom: 10px;
+    margin-left: -87%;
+    margin-top: 2%;
+}
+
+.footer .bottom-section .social-media-icons svg {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer .bottom-section .copyright {
+    margin-bottom: 10px;
+    margin-top: -3%;
+}
+
+.footer .bottom-section .privacy-policy a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.privacy-policy{
+    display: flex;
+    margin-left: 83%;
+    margin-top: -3%;
+}
+.section-1{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 45%;
+}
+
+#p-12{
+    display: flex;
+    width: 66%;
+}
+
+#p-13{
+    display: flex;
+    margin-left: 32%;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    font-size: 112%;
+}

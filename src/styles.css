@@ -1,0 +1,561 @@
+* General styling for the body */
+body {
+
+    background: #E6E6E6;
+
+    overflow: hidden;
+}
+.background {
+    width: 100%; /* Full width within the viewport */
+    margin-left: 0; /* Center it without overflow */
+}
+
+.contact-us-box {
+    width: 100%; /* Fit within the viewport */
+    margin-left: 0;
+}
+
+.contact-us-form {
+    width: 100%; /* Adjust to fit the container */
+    margin-left: 0;
+}
+
+ h3, h4 {
+    font-weight: bold;
+    margin-left: 41px;
+}
+h2{
+    font-weight: bold;
+    font-size: 178%;
+    margin-left: -63%;
+    margin-top: 92%;
+}
+h7{
+    font-size: 194%;
+}
+
+/* Container for general padding */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+/* Background image section */
+.background {
+    background-size: cover;
+    background-position: center;
+    width: 105%;
+    margin-top: 2%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #E6E6E6;
+    margin-left: -12%;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    margin-top: 6%;
+   
+    width: 498px;
+    opacity: 77%;
+    font-size: 126%;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.btn-primary, .btn-see-more {
+    background-color: #533C56;
+    color: white;
+    height: 56px;
+    border-radius: 12px;
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Divider with image */
+.line-with-image {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.line-with-image hr {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+}
+
+.line-with-image img {
+    height: 100px;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 4%;
+    margin-left: -3%;
+}
+
+/* About Us Section */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: -107%;
+    /* position: relative; */
+    margin-left: -16%;
+    padding-top: 50px;
+}
+
+/* The heading outside the box */
+.about-us-heading {
+    font-size: 201%;
+    /* font-weight: bold; */
+    /* position: absolute; */
+    top: -72px;
+    left: 2%;
+
+    left: 2%;
+}
+
+/* Content box */
+.about-us-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First paragraph covering 73% width */
+.about-us-paragraph {
+    width: 73%;
+    margin-bottom: 20px;
+    float: left;
+    font-family: "Georama", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin-left: 12%;
+    font-size: 121%; 
+}
+
+/* Image on the left */
+.about-us-image {
+    width: 31%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Our Mission Section */
+.our-mission-heading-container {
+    width: 65%;
+    display: flex;
+    margin-left: 35%;
+    margin-top: -25%;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.our-mission-heading {
+    background-color: #533C56;
+    color: #fff;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-left: 7%;
+    margin-right: 10px;
+}
+
+.our-mission-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.mission-paragraph {
+    margin-bottom: 25px;
+    display: flex;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -20%;
+    font-size: 108%;
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* Why Choose Us Section */
+.why-choose-heading-container {
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.why-choose-heading {
+    background-color: #533C56;
+    color: #fff;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.why-choose-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.bullet-points {
+    margin-bottom: 20px;
+    margin-left: 8%;
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.bullet-points ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bullet-points li {
+    margin-bottom: 31px;
+    font-size: 105%
+}
+
+.bullet-points li::before {
+    content: "•";
+    color: #533C56;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Our Vision Section */
+.our-vision-heading-container {
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+    margin-bottom: 10px;
+}
+
+.our-vision-heading {
+    background-color: #533C56;
+    color: #fff;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.our-vision-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.final-paragraph {
+    margin-left: 9%;
+    margin-bottom: 20px;
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+#bul-1 {
+    display: flex;
+    font-size: 106%;
+    margin-top: -2%;
+    width: 25%;
+}
+
+#para-1 {
+    display: flex;
+    opacity: 72%;
+    margin-top: -19px;
+    width: 83%;
+    margin-left: 13%;
+}
+
+/* Contact Us Section */
+.contact-us-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px; /* Adjust as needed */
+    position: relative;
+}
+
+.contact-us-box {
+    background-color: #fff;
+    padding: 30px;
+    width: 155%;
+    margin-left: -11%;
+    height: 523px;
+    margin-top: 8%;
+    margin-left: -40%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.contact-us-heading {
+    text-align: center;
+    font-size:  201%;;
+    font-weight: bold;
+    margin-left: -3%;
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: -12%;
+}
+
+.contact-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-us-image {
+    width: 229px;
+    height: 83%;
+    position: absolute;
+    bottom: -3px;
+    left: -1px;
+}
+
+.contact-us-description {
+    display: flex;
+    width: 38%;
+    margin-bottom: 20px;
+    margin-left: 19%;
+    opacity: 44%;
+    font-size: 120%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-us-form {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    width: 149%;
+    gap: 1%;
+    margin-top: -155%;
+    height: 50rem;
+    margin-left: 136%;
+    max-width: 400px;
+}
+
+.contact-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 58px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #d5e4e9;
+}
+
+.contact-input[type="text"],
+.contact-input[type="email"],
+.contact-input[type="message"] {
+    height: 53px;
+    background-color: #d5e4e9;
+}
+
+.contact-input[type="textarea"] {
+    resize: vertical;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #533C56; /* Updated button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    height: 44px;
+    width: 103%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-us-heading span.highlight {
+    color: #533C56; /* Updated color for "Touch" */
+}
+
+#tou-1 {
+    display: flex;
+    margin-top: 12%;
+    font-size: 212%;
+    margin-left: 19%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.highlight{
+    display: flex;
+    color: #533C56;
+}
+.about{
+    display: flex;
+    font-size: 4rem;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+    background-color: #533C56;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 103%;
+    margin-left: -20px;
+    height: 381px;
+    position: relative;
+}
+
+.footer .top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+.footer .top-section img {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 10px;
+    margin-top: 4%;
+}
+
+.footer .subscribe-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .subscribe-container input[type="email"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: transparent;
+    width: 95%;
+    height: 41%;
+    margin-top: 29%;
+    margin-right: 10px;
+}
+
+.footer .subscribe-container button {
+    padding:14px 17px;
+    margin-left: -15%;
+    margin-top: 29%;
+    height: 53px;
+    margin-left: -36%;
+    border-radius: 4px;
+    border: none;
+    background-color: lightblue;
+    color: #533C56;
+    cursor: pointer;
+}
+
+.footer .navigation-links {
+    display: flex;
+    opacity: 81%;
+    gap: 15%;
+    margin-top: 4%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer .navigation-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer .horizontal-line {
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid #E6E6E6;
+    margin-bottom: 10px;
+}
+
+.footer .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .bottom-section .social-media-icons {
+    margin-bottom: 10px;
+    margin-left: -87%;
+    margin-top: 2%;
+}
+
+.footer .bottom-section .social-media-icons svg {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer .bottom-section .copyright {
+    margin-bottom: 10px;
+    margin-top: -3%;
+}
+
+.footer .bottom-section .privacy-policy a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.privacy-policy{
+    display: flex;
+    margin-left: 83%;
+    margin-top: -3%;
+}

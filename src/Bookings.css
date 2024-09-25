@@ -1,0 +1,117 @@
+.bookings-container {
+  padding: 20px;
+    width: 88%;
+    height: 98%;
+    margin-top: -78%;
+    margin-left: 9%;
+    border-radius: 22px;
+    background-color: white;}
+  
+  .bookings-heading {
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-bottom: 20px;
+  }
+  
+  .billing-table {
+    width: 102%;
+    margin-top: -1%;
+    margin-left:0%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  .billing-table th, .billing-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .billing-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .billing-table th:last-child {
+    padding-left: 50px; /* Move Actions heading to the right */
+  }
+  
+  .invoice-number {
+    color: blue; /* Set invoice number color to blue */
+  }
+  
+  .status {
+    padding: 2px 5px; /* Reduce padding */
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.7em; /* Make status text smaller */
+    height: 20px; /* Reduce height */
+  }
+  
+  .status.confirmed {
+    background-color: green;
+    color: white;
+  }
+  
+  .status.not-confirmed {
+    background-color: red;
+    color: white;
+  }
+  
+  .status.pending {
+    background-color: orange;
+    color: white;
+  }
+  
+  .view-button {
+    background-color: transparent;
+    color: #533C56;
+    border: 1px solid #533C56;
+    padding: 12px 20px; /* Increase button size */
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .view-button:hover {
+    background-color: #e0d4e8; /* Lighten the background on hover */
+  }
+  
+  .action-button {
+    background-color: #533C56;
+    color: white;
+    border: none;
+    width: 140px; /* Decrease button width */
+    padding: 8px 12px; /* Decrease button size */
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px; /* Add border radius */
+    height: 35px; /* Decrease button height */
+  }
+  
+  .action-button:hover {
+    background-color: #3e2d42; /* Darken the background on hover */
+  }
+  
+  .action-button::before {
+    content: "🖨️ "; /* Add print emoji before the text */
+  }
+  
+  .billing-table td {
+    padding: 8px;
+  }
+  
+  .billing-table td.status {
+    display: flex;
+    height: 43px;
+    justify-content: center;
+    margin-top: 5%;
+    width: 120%;
+    font-size: 14px;
+    align-items: center;
+    padding-right: 20px; /* Add gap between status and actions */
+  }
+  
+  .billing-table td:last-child {
+    padding-left: 50px; /* Move actions column to the right */
+  }
+  
