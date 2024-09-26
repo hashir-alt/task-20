@@ -1,2 +1,12 @@
 
 
+html, body {
+    
+     /* Let the body grow with content */
+    overflow: auto; /* Ensure scrolling is enabled */
+}
+
+.container {
+     /* Example height to allow scrolling */
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}

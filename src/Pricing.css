@@ -1,27 +1,37 @@
+/* General container for the whole page layout */
 .pricing-page {
     margin-left: -27%;
+ 
 }
 
+/* Sidebar styles */
+
+    /* Sidebar styles */
 .sidebar-section {
     width: 255px;
     padding: 30px;
     margin-left: 2%;
     margin-top: 2%;
     background-color: white;
-    height: 70rem;
+    height: 70rem; /* Increased height */
     border-right: 1px solid #ddd;
+
+
 }
 
+/* Sidebar title */
 .sidebar-title {
     margin-bottom: 10px;
 }
 
+/* Sidebar divider */
 .divider {
     margin: 10px 0;
     border: 0;
     border-top: 1px solid #ddd;
 }
 
+/* Categories section */
 .category-section {
     margin-bottom: 20px;
 }
@@ -30,22 +40,26 @@
     margin-bottom: 10px;
 }
 
+/* Category options */
 .category-option {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
+/* Larger checkboxes */
 .checkbox {
     width: 38px;
     height: 36px;
     margin-right: 10px;
 }
 
+/* Category label */
 .checkbox-label {
     font-size: 14px;
 }
 
+/* View More button */
 .more-options {
     font-size: 14px;
     color: orange;
@@ -55,6 +69,7 @@
     font-weight: bold;
 }
 
+/* Color options */
 .color-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,11 +78,11 @@
 }
 
 .color-item {
-    width: 40px;
-    height: 40px;
+    width: 40px; /* Increased size */
+    height: 40px; /* Increased size */
     border-radius: 50%;
-    background-color: #ddd;
-    position: relative;
+    background-color: #ddd; /* Default color, you can update with specific colors */
+    position: relative; /* To position the color name below the circle */
 }
 
 .color-red { background-color: #ff0000; }
@@ -80,20 +95,28 @@
 .color-olive { background-color: #808000; }
 .color-teal { background-color: #008080; }
 
+/* Color names */
 .color-label {
     font-size: 12px;
-    color: #333;
+    color: #333; /* Color for the color names */
     text-align: center;
-    margin-top: 53px;
-    font-weight: bold;
+    margin-top: 53px; /* Space between color circle and name */
+    font-weight: bold; /* Make the name bold */
 }
 
+/* Main content styles */
 .content-section {
-    width: 60%;
+    
+   width: 60%;
     margin-left: 32%;
     margin-top: -83%;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+
 }
 
+/* Search bar styles */
 .search-section {
     display: flex;
     align-items: center;
@@ -132,27 +155,29 @@
     background-color: #0056b3;
 }
 
+/* Product grid styles */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 97px;
+    gap:97px;
     margin-top: -96%;
     margin-bottom: 20px;
 }
 
 .product-card {
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 127%;
+    
 }
 
 .product-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     height: 59%;
 }
 
@@ -182,6 +207,7 @@
     margin-top: -32px;
 }
 
+/* Checkout button */
 .checkout-btn {
     padding: 15px;
     border: none;
@@ -199,11 +225,13 @@
     background-color: #8b788d;
 }
 
+/* Footer styles */
 .footer-section {
     background-color: #533C56;
     color: white;
     padding: 17px;
     box-sizing: border-box;
+    /* margin: -62px; */
     width: 100%;
     margin-left: -3px;
     margin-top: 28%;
@@ -269,6 +297,7 @@
     gap: 20px;
 }
 
+
 .footers-copyright {
     font-size: 14px;
     color: #6c757d;
@@ -280,7 +309,6 @@
     border-top: 1px solid #E6E6E6;
     margin-bottom: 10px;
 }
-
 .footers {
     background-color: #533C56;
     color: white;
@@ -332,6 +360,7 @@
 
 .footers .subscribe-container button {
     padding: 14px 17px;
+   
     margin-top: 60px;
     height: 45px;
     margin-left: -43%;
@@ -364,7 +393,7 @@
 
 .footers .horizontal-line {
     width: 100%;
-    margin-top: 0%;
+    margin-top:0%;
     border-top: 1px solid #E6E6E6;
     margin-bottom: 10px;
 }
@@ -396,48 +425,73 @@
     text-decoration: none;
     font-size: 16px;
 }
-
-.privacy-policy {
+.privacy-policy{
     display: flex;
     margin-left: 83%;
     margin-top: -3%;
 }
-
-.section-1 {
-    width: 255px;
-    height: 70rem;
-    background: white;
+.section-1{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 45%;
 }
 
-.section-2 {
+#p-12{
     display: flex;
-    flex-direction: column;
+    width: 66%;
+}
+
+#p-13{
+    display: flex;
     margin-left: 32%;
-    margin-top: 5%;
-}
-
-.flex1 {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.flex2 {
-    display: flex;
-    margin-left: 29%;
-    align-items: center;
+    margin-top: 1%;
     justify-content: center;
-    width: 84%;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    font-size: 112%;
 }
-
-.flex3 {
+.dv{
     display: flex;
-    margin-left: -5%;
-    gap: 2%;
+    border: 1px solid black;
+    width: 0%;
+    opacity: 33%;
+    height: 6%;
+    margin-left: 35%;
+    margin-top: 26%;
+}
+.icon{
+    display: flex;
+    margin-top: 2%;
+}
+.cart{
+    display: flex;
+    margin-top: -20%;
+    height: 367%;
+    width: 23%;
+    margin-left: 80%;
 }
 
-.content-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+
+.search-icon{
+display: flex;
+margin-left: -9%;
 }
+/* Checkout button */
+.checkout-btn {
+    padding: 15px;
+    border: none;
+    margin-left: 32%;
+    border-radius: 5px;
+    background-color: #533C56; /* Main button color */
+    color: white;
+    cursor: pointer;
+    width: 43%; /* Full width to make sure it's visible */
+    font-size: 16px;
+     margin-top: -71px;;
+    position: relative;
+    z-index: 10; /* Ensure the button is not overlapped by other elements */
+    display: block; /* Ensures visibility */
+    text-align: center;
+}
+
