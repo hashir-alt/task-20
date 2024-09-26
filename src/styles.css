@@ -18,6 +18,10 @@ h3, h4 {
     font-weight: bold;
     margin-left: 41px;
 }
+#tou-1{
+display: flex;
+margin-top: 9%;
+}
 h2 {
     font-weight: bold;
     font-size: 178%;
