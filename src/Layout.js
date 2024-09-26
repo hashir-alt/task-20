@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Layout.css'; // Add your CSS file here
+import './Layout.css'; 
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <ul>
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/settings">Settings</Link></li>
-          {/* Add more sidebar links as needed */}
+     
         </ul>
       </nav>
       <main className="main-content">

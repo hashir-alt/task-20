@@ -32,19 +32,19 @@
   }
   
   .billing-table th:last-child {
-    padding-left: 50px; /* Move Actions heading to the right */
+    padding-left: 50px;
   }
   
   .invoice-number {
-    color: blue; /* Set invoice number color to blue */
+    color: blue; 
   }
   
   .status {
-    padding: 2px 5px; /* Reduce padding */
+    padding: 2px 5px; 
     border-radius: 5px;
     text-align: center;
-    font-size: 0.7em; /* Make status text smaller */
-    height: 20px; /* Reduce height */
+    font-size: 0.7em; 
+    height: 20px; 
   }
   
   .status.confirmed {
@@ -66,34 +66,34 @@
     background-color: transparent;
     color: #533C56;
     border: 1px solid #533C56;
-    padding: 12px 20px; /* Increase button size */
+    padding: 12px 20px;
     margin-right: 5px;
     cursor: pointer;
     border-radius: 3px;
   }
   
   .view-button:hover {
-    background-color: #e0d4e8; /* Lighten the background on hover */
+    background-color: #e0d4e8; 
   }
   
   .action-button {
     background-color: #533C56;
     color: white;
     border: none;
-    width: 140px; /* Decrease button width */
-    padding: 8px 12px; /* Decrease button size */
+    width: 140px;
+    padding: 8px 12px; 
     margin-right: 5px;
     cursor: pointer;
-    border-radius: 5px; /* Add border radius */
-    height: 35px; /* Decrease button height */
+    border-radius: 5px; 
+    height: 35px; 
   }
   
   .action-button:hover {
-    background-color: #3e2d42; /* Darken the background on hover */
+    background-color: #3e2d42; 
   }
   
   .action-button::before {
-    content: "🖨️ "; /* Add print emoji before the text */
+    content: "🖨️ "; 
   }
   
   .billing-table td {
@@ -108,10 +108,9 @@
     width: 120%;
     font-size: 14px;
     align-items: center;
-    padding-right: 20px; /* Add gap between status and actions */
+    padding-right: 20px; 
   }
   
   .billing-table td:last-child {
-    padding-left: 50px; /* Move actions column to the right */
-  }
+    padding-left: 50px; }
   

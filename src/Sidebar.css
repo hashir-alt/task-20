@@ -6,12 +6,12 @@
   height: 50rem;
   background-color: #f4f4f4;
   padding: 20px;
-  /* overflow-y: auto; */
+ 
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
-  margin-left: 250px; /* Leave space for the fixed sidebar */
+  margin-left: 250px; 
   padding: 20px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .menu-btn:hover {
-  background-color: #533C56; /* Highlight on hover */
+  background-color: #533C56; 
   color: white;
   border-radius: 4px;
 }

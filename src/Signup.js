@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import './Signup.css'; // Import the CSS for this component
+import './Signup.css'; 
 
 const Signup = () => {
     const [firstName, setFirstName] = useState('');
@@ -10,8 +10,8 @@ const Signup = () => {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [errors, setErrors] = useState({});
-    const [isChecked, setIsChecked] = useState(false); // Checkbox state
-    const navigate = useNavigate(); // For navigation
+    const [isChecked, setIsChecked] = useState(false); 
+    const navigate = useNavigate(); 
 
     const validateFields = () => {
         const newErrors = {};
@@ -33,9 +33,9 @@ const Signup = () => {
             return;
         }
 
-        // Save user credentials to localStorage
+        
         localStorage.setItem('user', JSON.stringify({ firstName, lastName, number, email, password }));
-        navigate('/login'); // Redirect to login page
+        navigate('/login'); 
     };
 
     return (

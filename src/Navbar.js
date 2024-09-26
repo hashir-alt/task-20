@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { useAuth } from './AuthContext'; // Import the authentication context
+import { useAuth } from './AuthContext';
 
 function Navbar() {
-    const { isAuthenticated } = useAuth(); // Get authentication status
+    const { isAuthenticated } = useAuth();
 
     return (
         <nav className="navbar">

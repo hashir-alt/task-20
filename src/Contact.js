@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import './styles.css'; // Assuming you have a CSS file for additional styles
+import './styles.css'; 
 
 const Contact = () => {
   return (
     <div>
-      {/* Background Image Section */}
+     
       <div className="background" style={{ backgroundImage: 'url(1.png)' }}>
         <div className="content-center">
           <h1 className="about">About Us</h1>
@@ -17,25 +17,24 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Divider with Image */}
+    
       <div className="line-with-image">
         <hr className="divider" />
         <img src="4.png" alt="Decoration" />
       </div>
 
-      {/* About Us Section */}
+ 
       <div className="container about-us">
         <h2 className="about-us-heading">About Us</h2>
         <div className="about-us-box">
-          {/* Left-aligned Paragraph */}
+         
           <p className="about-us-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
           </p>
 
-          {/* Image aligned to the left, and mission on the right */}
           <img src="2.png" alt="About Us" className="about-us-image" />
           
-          {/* Our Mission Section */}
+          
           <div className="our-mission-heading-container">
             <h3 className="our-mission-heading">Our Mission</h3>
             <div className="our-mission-line"></div>
@@ -44,7 +43,7 @@ const Contact = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
           </p>
 
-          {/* Why Choose Us Section */}
+         
           <div className="why-choose-heading-container">
             <h3 className="why-choose-heading">Why Choose Us</h3>
             <div className="why-choose-line"></div>
@@ -64,7 +63,7 @@ const Contact = () => {
             </li>
           </ul>
 
-          {/* Our Vision Section */}
+         
           <div className="our-vision-heading-container">
             <h3 className="our-vision-heading">Our Vision</h3>
             <div className="our-vision-line"></div>
@@ -75,7 +74,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Us Section */}
+      
       <div className="contact-us-section">
         <div className="contact-us-box">
           <h2 className="contact-us-heading">Contact Us</h2>
@@ -99,7 +98,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
+      
       <footer className="footer">
         <div className="top-section">
           <img src="5.png" alt="Footer " />

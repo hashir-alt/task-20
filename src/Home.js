@@ -1,18 +1,17 @@
 import React from 'react';
-import './Home.css'; // Import the CSS for styling
+import './Home.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
 
 const Home = () => {
     return (
         <div className="home-page">
-            {/* 1st Section: Top Image */}
+        
             <section className="top-image-section">
-                <img src="hi3.png" alt="Top Image" className="top-image" />
+                <img src="hi3.png" alt="Top" className="top-image" />
             </section>
 
-            {/* 2nd Section: Categories */}
+            
             <section className="categories-section">
                 <h2 className="section-heading">Our Categories</h2>
                 <div className="card-container">
@@ -43,32 +42,29 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* 3rd Section: Special Moment */}
+           
             <section className="special-moment-section">
                 <img src="hi9.png" alt="Special Moment" className="special-moment-image" />
                 <div className="special-moment-text">
                     <h2>MAKE THE MOVEMENT</h2>
-                  
-                    <p id='p-12'>Loremnt ut labore et dolore magna aliqua magna aliqua  aliqua.</p>
-               <button className='bl-1'>save</button>
+                    <p id='p-12'>Loremnt ut labore et dolore magna aliqua magna aliqua aliqua.</p>
+                    <button className='bl-1'>save</button>
                 </div>
             </section>
 
-            {/* 4th Section: Follow Us */}
+           
             <section className="follow-us-section">
                 <h2 className="section-1">Follow Us</h2>
-                <p id='p-11'>Don't miss out on our updates -  latest news and updates 
-                </p>
-                <p id='p-13'> latest news and updates</p>
+                <p id='p-11'>Don't miss out on our updates - latest news and updates</p>
+                <p id='p-13'>latest news and updates</p>
                 <div className="social-icons">
-                    <a href="#"><img src="scfb.png" alt="Facebook" /></a>
-                    <a href="#"><img src="new.png" alt="linkdein" /></a>
-                    <a href="#"><img src="scin.png" alt="Instagram" /></a>
-                    <a href="#"><img src="scyt.png" alt="youtube" /></a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="scfb.png" alt="Facebook" /></a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="new.png" alt="LinkedIn" /></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="scin.png" alt="Instagram" /></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="scyt.png" alt="YouTube" /></a>
                 </div>
             </section>
 
-            {/* 5th Section: Trending Packages */}
             <section className="trending-packages-section">
                 <h2 className="section-heading">Trending Packages</h2>
                 <div className="package-cards">
@@ -90,40 +86,34 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* 6th Section: Blogs */}
+           
             <section className="blogs-section">
                 <h2 className="section-heading">Our Blogs</h2>
                 <div className="blog-cards">
                     <div className="blog-card">
                         <img src="hi4.png" alt="Blog 1" />
                         <h3>WEEDING</h3>
-                        
                     </div>
                     <div className="blog-card">
                         <img src="h14.png" alt="Blog 2" />
                         <h3>BRIDE</h3>
-                        
                     </div>
                     <div className="blog-card">
                         <img src="hi8.png" alt="Blog 3" />
                         <h3>BIRTHDAY</h3>
-                        
                     </div>
                     <br></br>
                     <div className="blog-card">
                         <img src="hi 7.png" alt="Blog 3" />
                         <h3>WEEDING</h3>
-                        
                     </div>
                     <div className="blog-card">
                         <img src="h16.png" alt="Blog 3" />
                         <h3>BRIDE</h3>
-                        
                     </div>
                     <div className="blog-card">
                         <img src="hi6.png" alt="Blog 3" />
                         <h3>BIRTHDAY</h3>
-                        
                     </div>
                 </div>
             </section>
@@ -137,7 +127,7 @@ const Home = () => {
                         <button>Subscribe</button>
                     </div>
                     <div className="navigation-links">
-                        <a href="#home">Home</a>
+                        <a href="/">Home</a>
                         <a href="#about">About</a>
                         <a href="#pricing">Pricing</a>
                         <a href="#blog">Blog</a>
@@ -160,7 +150,6 @@ const Home = () => {
                 </div>
             </footer>
         </div>
-        
     );
 };
 

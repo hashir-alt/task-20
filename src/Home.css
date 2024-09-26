@@ -1,9 +1,9 @@
-/* Apply Product Sans font to the entire page */
+
 body, .home-page {
     font-family: 'Product Sans', Arial, sans-serif;
 }
 
-/* If any specific element needs a different font, adjust individually, otherwise this will apply to all sections */
+
 
 
 .home-page {
@@ -12,20 +12,20 @@ body, .home-page {
     padding: 0;
 }
 
-/* 1st Section: Top Image */
+
 .top-image-section {
     width: 100%;
-    height: auto; /* Let the image height adjust automatically */
+    height: auto; 
 }
 
 .top-image {
     width: 118%;
     margin-left: -17%;
     height: 593px;
-    display: block;/* Remove extra space below the image */
+    display: block;
 }
 
-/* 2nd Section: Categories */
+
 .categories-section {
     padding: 102px;
     margin-left: -28%;
@@ -60,7 +60,7 @@ body, .home-page {
     height: auto;
 }
 
-/* 3rd Section: Special Moment */
+
 .special-moment-section {
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ body, .home-page {
     margin: 0;
 }
 
-/* 4th Section: Follow Us */
+
 .follow-us-section {
     padding: 20px;
     margin-left: -26%;
@@ -131,7 +131,7 @@ body, .home-page {
     font-size: 112%;
 }
 
-/* 5th Section: Trending Packages */
+
 .trending-packages-section {
     padding: 20px;
     margin-left: -25%;
@@ -146,7 +146,7 @@ body, .home-page {
 }
 
 .package-card {
-    width: calc(33.333% - 20px); /* Adjust width with gap */
+    width: calc(33.333% - 20px); 
     box-sizing: border-box;
     border: 1px solid #ddd;
     padding: 10px;
@@ -158,7 +158,7 @@ body, .home-page {
     height: auto;
 }
 
-/* 6th Section: Blogs */
+
 .blogs-section {
     padding: 20px;
     margin-left: -25%;
@@ -174,7 +174,7 @@ body, .home-page {
 }
 
 .blog-card {
-    width: calc(33.333% - 20px); /* Adjust width with gap */
+    width: calc(33.333% - 20px);
     box-sizing: border-box;
     border: 1px solid #ddd;
     padding: 10px;
@@ -186,7 +186,7 @@ body, .home-page {
     height: auto;
 }
 
-/* Footer */
+
 .footer {
     background-color: #333;
     color: white;
@@ -239,7 +239,7 @@ body, .home-page {
     width: 54%;}
 
 .footer .top-section img {
-    width: 150px; /* Adjust size as needed */
+    width: 150px; 
     margin-bottom: 10px;
     margin-top:62%;
 }

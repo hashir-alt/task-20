@@ -71,13 +71,13 @@ const Profile = () => {
   const handleInputChange = (setter) => (e) => {
     const value = e.target.value;
     setter(value);
-    saveToLocalStorage(e.target.id, value); // Save each field as it's changed
+    saveToLocalStorage(e.target.id, value); 
   };
 
   return (
     <div className="profile-container">
       <div className="profile-content">
-        {/* Top Section (Image + Edit Profile) */}
+        
         <div className="profile-top-box">
           <div className="profile-image-container">
             <label htmlFor="profileImageInput" className="profile-image-label">
@@ -104,7 +104,7 @@ const Profile = () => {
           </button>
         </div>
 
-        {/* Bottom Section (User Info Inputs) */}
+       
         <div className="profile-info-box">
           <div className="input-row">
             <div className="input-group">

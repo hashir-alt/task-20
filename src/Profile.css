@@ -14,13 +14,13 @@ body, html {
     background-color: #E3E7EC;
 }
 
-/* Main content */
+
 .profile-content {
     width: 80%;
     padding: 20px;
 }
 
-/* Top Section (Image + Edit Profile) */
+
 .profile-top-box {
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@ body, html {
     color: white;
 }
 
-/* Bottom Section (User Info Inputs) */
+
 .profile-info-box {
     background-color: #fff;
     padding: 20px;

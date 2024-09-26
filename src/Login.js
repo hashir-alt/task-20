@@ -17,7 +17,7 @@ const Login = () => {
     const handleLogin = () => {
         const storedUser = JSON.parse(localStorage.getItem('user'));
         if (storedUser && storedUser.email === email && storedUser.password === password) {
-            login({ email, password }); // Pass user data on login
+            login({ email, password }); 
             navigate('/');
             setEmail('');
             setPassword('');

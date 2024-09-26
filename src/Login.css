@@ -1,10 +1,10 @@
-/* Apply background color to the entire viewport */
+
 body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
+    font-family: 'Inter', sans-serif; 
 }
 
 * {
@@ -15,11 +15,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:96vh; /* Full viewport height */
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
+    height:96vh;
+    font-family: 'Inter', sans-serif; 
 }
 
-/* Styling for the login box */
+
 .login-box {
     background-color: #fff;
     padding: 2rem;
@@ -32,19 +32,19 @@ body {
     position: relative;
 }
 
-/* Welcome text styling */
+
 .welcome-text {
     color: #533C56;
     margin-bottom: 0.5rem;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600; 
     margin-left: 2%;
-    font-size: 32px; /* Font size as per your requirement */
+    font-size: 32px;
      margin-top: 3%;
-    line-height: 48px; /* Line height for proper spacing */
+    line-height: 48px; 
 }
 
-/* Welcome paragraph styling */
+
 .welcome-paragraph {
     color: #666;
     margin-bottom: 1rem;
@@ -52,14 +52,14 @@ body {
     font-weight: 300;
 }
 
-/* Password container styling */
+
 .password-container {
     position: relative;
     width: 100%;
     margin-bottom: 1rem;
 }
 
-/* Input field styling */
+
 .login-box input {
     width: 100%;
     padding: 0.75rem;
@@ -67,17 +67,17 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
     box-sizing: border-box;
 }
 
-/* Password input styling */
+
 .password-input {
-    padding-right: 2.5rem; /* Add space for the eye icon */
+    padding-right: 2.5rem; 
 }
 
-/* Toggle password visibility icon */
+
 .toggle-password {
     position: absolute;
     top: 50%;
@@ -85,10 +85,10 @@ body {
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 18px;
-    color: #000; /* Black color for the eye icon */
+    color: #000; 
 }
 
-/* Options container for Remember Me and Forgot Password */
+
 .options-container {
     display: flex;
     justify-content: space-between;
@@ -96,27 +96,27 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Checkbox container styling */
+
 .checkbox-container {
     display: flex;
     align-items: center;
-    white-space: nowrap; /* Prevent wrapping */
+    white-space: nowrap; 
 }
 
-/* Checkbox styling */
+
 .checkbox-container input {
     margin-right: 0.5rem;
 }
 
-/* Remember Me text styling */
+
 .remember-me-text {
     font-size: 14px;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
-    white-space: nowrap; /* Prevent wrapping */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600;
+    white-space: nowrap; 
 }
 
-/* Forgot password link styling */
+
 .forgot-password {
     font-size: 14px;
     font-family: 'Inter', sans-serif;
@@ -133,7 +133,7 @@ body {
     text-decoration: underline;
 }
 
-/* Login button styling */
+
 .login-box .login-btn {
     width: 100%;
     padding: 0.75rem;
@@ -144,29 +144,29 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
     transition: background-color 0.3s, opacity 0.3s;
     margin-top: 1rem;
 }
 
-/* Button hover effect */
+
 .login-box .login-btn:hover {
     background-color: #6d4c6c;
 }
 
-/* Signup link styling */
+
 .signup-link {
     text-align: center;
     margin-top: 1rem;
     color: #533C56;
     font-size: 14px;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
 }
 
 .signup-link-orange {
-    color: orange; /* Set Sign Up link to orange */
+    color: orange; 
     text-decoration: none;
 }
 
@@ -174,53 +174,53 @@ body {
     text-decoration: underline;
 }
 
-/* Or login with text styling */
+
 .or-login {
     margin-top: 1rem;
     font-size: 14px;
     color: #666;
     text-align: center;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
 }
 
-/* Social buttons styling */
+
 .social-buttons {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-/* Social button styling */
+
 .social-buttons .social-btn {
     width: 48%;
     padding: 0.75rem;
     border: 1px solid #ccc;
     color: #333;
     font-size: 16px;
-    font-family: 'Inter', sans-serif; /* Apply Inter font */
-    font-weight: 600; /* Apply font weight */
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600; 
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* Transparent background */
+    background-color: transparent;
     transition: opacity 0.3s;
     border-radius: 5px;
 }
 
-/* Social button hover effect */
+
 .social-buttons .social-btn:hover {
     opacity: 0.9;
 }
 
-/* Social logo styling */
+
 .social-logo {
     width: 44px;
-    height: 31px; /* Consistent height for social logos */
+    height: 31px; 
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
     .login-box {
         width: 80%;

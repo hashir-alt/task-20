@@ -1,4 +1,4 @@
-/* Signup.css */
+
 body {
   background-color: #f0f0f0;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   justify-content: center;
   
   align-items: center;
-  height: 154vh;/* Center vertically */
+  height: 154vh;
 }
 
 .signup-box {
@@ -53,21 +53,21 @@ body {
   font-size: 16px;
   padding: 0.75rem;
   margin-bottom: 1rem;
-  border: 1px solid #ddd; /* Light border color */
-  border-radius: 5px; /* Rounded corners */
-  width: 48%; /* Adjust width for two inputs in one line */
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  width: 48%; 
 }
 
 .input-field.first-name,
 .input-field.last-name,
 .input-field.number,
 .input-field.email {
-  width: 99%; /* Adjust width for two inputs in one line */
+  width: 99%;
 }
 
 .input-field.password,
 .input-field.confirm-password {
-  width: 100%; /* Full width for single inputs */
+  width: 100%; 
 }
 
 .create-account-btn {
@@ -83,7 +83,7 @@ body {
 }
 
 .create-account-btn:hover {
-  background-color: #4b2d43; /* Darker shade on hover */
+  background-color: #4b2d43; 
 }
 
 .terms {

@@ -6,18 +6,16 @@
     background-color: #f8f9fa;
 }
 
-/* Logo styling */
 .navbar-logo img {
     height: 66px;
     width: 202%;
-    transition: transform 0.3s; /* Smooth movement on hover */
+    transition: transform 0.3s;
 }
 
 .navbar-logo img:hover {
-    transform: translateX(5px); /* Move logo slightly to the right */
+    transform: translateX(5px);
 }
 
-/* Links container styling */
 .navbar-links {
     list-style: none;
     display: flex;
@@ -28,33 +26,29 @@
     margin-left: 143px;
 }
 
-/* Link styling */
 .navbar-links li a {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     color: #000;
     font-weight: 500;
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
-    padding: 0.5rem 1rem; /* Add padding to create a button-like feel */
-    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
 
-/* Link hover effect */
 .navbar-links li a:hover {
-    color: #f8f9fa; /* Font color on hover */
-    background-color: #533C56; /* Background color on hover */
-    transform: translateY(-2px); /* Slightly move the link upwards */
+    color: #f8f9fa;
+    background-color: #533C56;
+    transform: translateY(-2px);
 }
 
-/* Buttons container styling */
 .navbar-buttons {
     display: flex;
     gap: 1rem;
 }
 
-/* Button styling */
 .btn {
     padding: 0.5rem 1rem;
-    border: 1px solid #533C56; /* Border for the button */
+    border: 1px solid #533C56;
     background-color: transparent;
     color: #000;
     height: 50px;
@@ -66,18 +60,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none; /* Ensure text-decoration is none */
+    text-decoration: none;
 }
 
-/* Button hover effect */
 .btn:hover {
-    background-color: #533C56; /* Hover background color */
-    color: #f8f9fa; /* Font color on hover */
-    transform: translateY(-2px); /* Slightly move the button upwards */
+    background-color: #533C56;
+    color: #f8f9fa;
+    transform: translateY(-2px);
 }
 
-/* Responsive Styles */
-@media (max-width: 990px){
+@media (max-width: 990px) {
     .navbar-links {
         list-style: none;
         display: flex;
@@ -86,9 +78,8 @@
         margin: 0;
         margin-left: 120px;
     }
-    
-    
 }
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
